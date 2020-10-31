@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%lld favourites</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@favourites@</string>
+		<key>favourites</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>No favourites</string>
+			<key>one</key>
+			<string>%lld favourite</string>
+			<key>other</key>
+			<string>%lld favourites</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

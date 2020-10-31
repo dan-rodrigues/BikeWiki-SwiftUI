@@ -1,0 +1,28 @@
+{
+    "id": "CB500F",
+    "manufacturer": {
+        "id": "0",
+        "name": "Honda"
+    },
+    "name": "CB500F",
+    "image": {
+        "source": "local",
+        "resource": "CB500F"
+    },
+    "summary": "The Honda 500 twins are a series of straight-twin motorcycles made by Honda since 2013. They are the CB500F standard/naked bike, the CBR500R sport bike, the CB500X adventure touring bike, and the CMX500 Rebel bobber. These models are sold in Japan with smaller capacity 399 cc engines: CB400F (2013–2016), CBR400R, and 400X. Their introduction coincided with new European licensing regulations establishing a mid-range class of motorcycles of limited power.",
+    "attributes": [
+        {
+            "name": "Year",
+            "value": "2013 - Present"
+        },
+        {
+            "name": "Displacement",
+            "value": "471cc"
+        },
+        {
+            "name": "Engine",
+            "value": "DOHC I2"
+        }
+    ]
+}
+

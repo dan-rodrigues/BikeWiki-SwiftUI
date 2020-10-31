@@ -1,0 +1,31 @@
+// Common
+
+"Search" = "Search";
+"Favourites" = "Favourites";
+"Internal error occurred" = "Internal error occurred";
+"Error occurred: %@" = "Error occurred: %@";
+"Initializing…" = "Initializing…";
+
+// Search bar
+
+"Search…" = "Search…";
+"Cancel" = "Cancel";
+
+// Search tab
+
+"Loading all bikes…" = "Loading all bikes…";
+"No results found for your search" = "No results found for your search";
+"Searching…" = "Searching…";
+"Please enter more text to search" = "Please enter more text to search";
+"Results for search: %@" = "Results for search: %@";
+
+// Favourites
+
+"Loading your favourites…" = "Loading your favourites…";
+"You don't have any favourite bikes" = "You don't have any favourite bikes";
+"Initializing…" = "Initializing…";
+
+// Details
+
+"Details" = "Details";
+"%@: " = "%@: ";

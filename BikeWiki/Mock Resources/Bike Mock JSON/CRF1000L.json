@@ -1,0 +1,28 @@
+{
+    "id": "CRF1000L",
+    "manufacturer": {
+        "id": "0",
+        "name": "Honda"
+    },
+    "name": "Africa Twin",
+    "image": {
+        "source": "local",
+        "resource": "CRF1000L"
+    },
+    "summary": "The CRF1000L is a 998 cc (60.9 cu in) 270° crank, parallel-twin dual-sport that revived the Africa Twin name for the 2016 model year. It became available in the UK in late 2015 and early 2016 in the US. It was developed as a modern interpretation of its predecessors, the XRV 750 and XRV 650, based on the NXR-750 which won the Paris-Dakar rally four times in the late 1980s.",
+    "attributes": [
+        {
+            "name": "Year",
+            "value": "2015 - Present"
+        },
+        {
+            "name": "Displacement",
+            "value": "998cc"
+        },
+        {
+            "name": "Engine",
+            "value": "DOHC I2"
+        }
+    ]
+}
+

@@ -1,0 +1,27 @@
+{
+    "id": "CBX1000",
+    "manufacturer": {
+        "id": "0",
+        "name": "Honda"
+    },
+    "name": "CBX1000",
+    "image": {
+        "source": "local",
+        "resource": "CBX1000"
+    },
+    "summary": "The Honda CBX was a sports motorcycle manufactured by Honda from 1978 to 1982. With a 1047cc inline six-cylinder engine producing 105 bhp (78 kW), it was the flagship of the Honda range. The CBX was well-received by the press, but was outsold by its sibling, the Honda CB900F",
+    "attributes": [
+        {
+            "name": "Year",
+            "value": "1978 - 1982"
+        },
+        {
+            "name": "Displacement",
+            "value": "1047cc"
+        },
+        {
+            "name": "Engine",
+            "value": "DOHC I6"
+        }
+    ]
+}

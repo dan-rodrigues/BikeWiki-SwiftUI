@@ -1,0 +1,27 @@
+{
+    "id": "CX500",
+    "manufacturer": {
+        "id": "0",
+        "name": "Honda"
+    },
+    "name": "CX500",
+    "image": {
+        "source": "local",
+        "resource": "CX500"
+    },
+    "summary": "The 1978 CX500 Standard had a large fuel tank, stepped seat, a round brake fluid reservoir and a plastic mini-fairing that was thought to look unusual at the time. Turn signals extend out through the mini fairing from the headlight's centerline. The CX500 Standard had silver Comstar wheels, 19 inch in front and 18 inch in the rear.",
+    "attributes": [
+        {
+            "name": "Year",
+            "value": "1978 - 1983"
+        },
+        {
+            "name": "Displacement",
+            "value": "497cc"
+        },
+        {
+            "name": "Engine",
+            "value": "OHV 80° V-twin"
+        }
+    ]
+}

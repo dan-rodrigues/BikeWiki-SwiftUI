@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4608DEB3257F62F200B5C793 /* SearchTabViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */; };
+		4608DEBD2580304100B5C793 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */; };
+		4608DED02580951E00B5C793 /* FavouritesTabViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DECF2580951E00B5C793 /* FavouritesTabViewModelFactory.swift */; };
+		4673FBF02568D1940012AB1E /* BikeDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBEF2568D1940012AB1E /* BikeDetailHeaderView.swift */; };
+		4673FBF42568D5920012AB1E /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBF32568D5920012AB1E /* LoremSwiftum.swift */; };
+		4673FBF72569F1F00012AB1E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBF62569F1F00012AB1E /* SearchBarView.swift */; };
+		4673FBFA2569F2360012AB1E /* BikeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBF92569F2360012AB1E /* BikeListView.swift */; };
+		4673FBFE256A59F90012AB1E /* MockBikeCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBFD256A59F90012AB1E /* MockBikeCatalog.swift */; };
+		4673FC02256A5F9B0012AB1E /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FC01256A5F9B0012AB1E /* Manufacturer.swift */; };
+		4673FC06256A68CE0012AB1E /* SpeedTriple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4673FC05256A68CE0012AB1E /* SpeedTriple.jpg */; };
+		468E8E7D257C64DF00C6BCD2 /* SearchPerforming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E8E7C257C64DF00C6BCD2 /* SearchPerforming.swift */; };
+		468E8E87257C658C00C6BCD2 /* MockSearchPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E8E86257C658C00C6BCD2 /* MockSearchPerformer.swift */; };
+		468E8E93257CED2C00C6BCD2 /* SearchTabViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E8E92257CED2C00C6BCD2 /* SearchTabViewModelFactory.swift */; };
+		468E8E96257CEE4E00C6BCD2 /* GroupedBikeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468E8E95257CEE4E00C6BCD2 /* GroupedBikeListView.swift */; };
+		46A6FF7F2552739300408948 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF7E2552739300408948 /* Bike.swift */; };
+		46A6FF842552780500408948 /* CX500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46A6FF832552780500408948 /* CX500.jpg */; };
+		46A6FF882552786E00408948 /* URLLocalImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF872552786E00408948 /* URLLocalImageExtensions.swift */; };
+		46A96D0D257355A600E9FA6D /* CBX1000.json in Resources */ = {isa = PBXBuildFile; fileRef = 46A96D0C257355A600E9FA6D /* CBX1000.json */; };
+		46A96D1025735B2A00E9FA6D /* CX500.json in Resources */ = {isa = PBXBuildFile; fileRef = 46A96D0F25735B2A00E9FA6D /* CX500.json */; };
+		46A96D1325735BD600E9FA6D /* SpeedTriple.json in Resources */ = {isa = PBXBuildFile; fileRef = 46A96D1225735BD600E9FA6D /* SpeedTriple.json */; };
+		46A96D192573716500E9FA6D /* FavouritesToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A96D182573716500E9FA6D /* FavouritesToggleView.swift */; };
+		46BE1284254E262300F05EDF /* BikeWikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE1283254E262300F05EDF /* BikeWikiApp.swift */; };
+		46BE1286254E262300F05EDF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE1285254E262300F05EDF /* RootView.swift */; };
+		46BE1297254E279600F05EDF /* BikeSummaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE1296254E279600F05EDF /* BikeSummaryRowView.swift */; };
+		46E70ED52583037200C11D2E /* TabSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E70ED42583037200C11D2E /* TabSelection.swift */; };
+		46E70EDC25831DA200C11D2E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 46E70EDE25831DA200C11D2E /* Localizable.stringsdict */; };
+		46E70EE725831FB600C11D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46E70EE925831FB600C11D2E /* Localizable.strings */; };
+		46FA535B254E2A950091A19F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 46FA535A254E2A950091A19F /* SDWebImageSwiftUI */; };
+		46FA5362254E2C530091A19F /* CBX1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46FA5361254E2C530091A19F /* CBX1000.jpg */; };
+		46FA5366254E2F230091A19F /* BikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FA5365254E2F230091A19F /* BikeDetailView.swift */; };
+		46FA536F254E80970091A19F /* FavouritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FA536E254E80970091A19F /* FavouritesStore.swift */; };
+		46FD976F25835C6100F38CB2 /* CB500F.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46FD976E25835C6100F38CB2 /* CB500F.jpg */; };
+		46FD977325835C8000F38CB2 /* CB500F.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FD977225835C8000F38CB2 /* CB500F.json */; };
+		46FD977925835DC400F38CB2 /* CRF1000L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46FD977825835DC400F38CB2 /* CRF1000L.jpg */; };
+		46FD977D25835DE000F38CB2 /* CRF1000L.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FD977C25835DE000F38CB2 /* CRF1000L.json */; };
+		46FD97842583606100F38CB2 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97832583606100F38CB2 /* Attribute.swift */; };
+		46FD97AE25846C3300F38CB2 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 46FD97AD25846C3300F38CB2 /* SnapshotTesting */; };
+		46FD97B825846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97B725846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift */; };
+		46FD97BE258470D400F38CB2 /* SearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97BD258470D400F38CB2 /* SearchTabView.swift */; };
+		46FD97C22584725600F38CB2 /* FavouritesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97C12584725600F38CB2 /* FavouritesTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4608DEB5257F62F200B5C793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BE1278254E262300F05EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BE127F254E262300F05EDF;
+			remoteInfo = BikeWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4608DEB0257F62F200B5C793 /* BikeWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabViewModelTests.swift; sourceTree = "<group>"; };
+		4608DEB4257F62F200B5C793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		4608DECF2580951E00B5C793 /* FavouritesTabViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTabViewModelFactory.swift; sourceTree = "<group>"; };
+		4673FBEF2568D1940012AB1E /* BikeDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDetailHeaderView.swift; sourceTree = "<group>"; };
+		4673FBF32568D5920012AB1E /* LoremSwiftum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremSwiftum.swift; sourceTree = "<group>"; };
+		4673FBF62569F1F00012AB1E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		4673FBF92569F2360012AB1E /* BikeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeListView.swift; sourceTree = "<group>"; };
+		4673FBFD256A59F90012AB1E /* MockBikeCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBikeCatalog.swift; sourceTree = "<group>"; };
+		4673FC01256A5F9B0012AB1E /* Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		4673FC05256A68CE0012AB1E /* SpeedTriple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpeedTriple.jpg; sourceTree = "<group>"; };
+		468E8E7C257C64DF00C6BCD2 /* SearchPerforming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPerforming.swift; sourceTree = "<group>"; };
+		468E8E86257C658C00C6BCD2 /* MockSearchPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchPerformer.swift; sourceTree = "<group>"; };
+		468E8E92257CED2C00C6BCD2 /* SearchTabViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabViewModelFactory.swift; sourceTree = "<group>"; };
+		468E8E95257CEE4E00C6BCD2 /* GroupedBikeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedBikeListView.swift; sourceTree = "<group>"; };
+		46A6FF7E2552739300408948 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
+		46A6FF832552780500408948 /* CX500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CX500.jpg; sourceTree = "<group>"; };
+		46A6FF872552786E00408948 /* URLLocalImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLLocalImageExtensions.swift; sourceTree = "<group>"; };
+		46A96D0C257355A600E9FA6D /* CBX1000.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CBX1000.json; sourceTree = "<group>"; };
+		46A96D0F25735B2A00E9FA6D /* CX500.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CX500.json; sourceTree = "<group>"; };
+		46A96D1225735BD600E9FA6D /* SpeedTriple.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SpeedTriple.json; sourceTree = "<group>"; };
+		46A96D182573716500E9FA6D /* FavouritesToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesToggleView.swift; sourceTree = "<group>"; };
+		46BE1280254E262300F05EDF /* BikeWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BE1283254E262300F05EDF /* BikeWikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeWikiApp.swift; sourceTree = "<group>"; };
+		46BE1285254E262300F05EDF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		46BE128C254E262400F05EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BE1296254E279600F05EDF /* BikeSummaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeSummaryRowView.swift; sourceTree = "<group>"; };
+		46E70ED42583037200C11D2E /* TabSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelection.swift; sourceTree = "<group>"; };
+		46E70EDD25831DA200C11D2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		46E70EE825831FB600C11D2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		46FA5361254E2C530091A19F /* CBX1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CBX1000.jpg; sourceTree = "<group>"; };
+		46FA5365254E2F230091A19F /* BikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDetailView.swift; sourceTree = "<group>"; };
+		46FA536E254E80970091A19F /* FavouritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesStore.swift; sourceTree = "<group>"; };
+		46FD976E25835C6100F38CB2 /* CB500F.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CB500F.jpg; sourceTree = "<group>"; };
+		46FD977225835C8000F38CB2 /* CB500F.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CB500F.json; sourceTree = "<group>"; };
+		46FD977825835DC400F38CB2 /* CRF1000L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CRF1000L.jpg; sourceTree = "<group>"; };
+		46FD977C25835DE000F38CB2 /* CRF1000L.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CRF1000L.json; sourceTree = "<group>"; };
+		46FD97832583606100F38CB2 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		46FD97B725846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabViewSnapshotTests.swift; sourceTree = "<group>"; };
+		46FD97BD258470D400F38CB2 /* SearchTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabView.swift; sourceTree = "<group>"; };
+		46FD97C12584725600F38CB2 /* FavouritesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4608DEAD257F62F200B5C793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FD97AE25846C3300F38CB2 /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BE127D254E262300F05EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FA535B254E2A950091A19F /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4608DEB1257F62F200B5C793 /* BikeWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FD97D12584880800F38CB2 /* Snapshot Tests */,
+				46FD97CF258487D500F38CB2 /* Functional Tests */,
+				4608DEB4257F62F200B5C793 /* Info.plist */,
+			);
+			path = BikeWikiTests;
+			sourceTree = "<group>";
+		};
+		4608DECE2580951000B5C793 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				4608DECF2580951E00B5C793 /* FavouritesTabViewModelFactory.swift */,
+				46FA536E254E80970091A19F /* FavouritesStore.swift */,
+				46FD97C12584725600F38CB2 /* FavouritesTabView.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		4673FBF22568D5810012AB1E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4673FBF32568D5920012AB1E /* LoremSwiftum.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4673FBFC256A59E50012AB1E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				46FD977825835DC400F38CB2 /* CRF1000L.jpg */,
+				4673FC05256A68CE0012AB1E /* SpeedTriple.jpg */,
+				46FA5361254E2C530091A19F /* CBX1000.jpg */,
+				46A6FF832552780500408948 /* CX500.jpg */,
+				46FD976E25835C6100F38CB2 /* CB500F.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		468E8E7B257C64CA00C6BCD2 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				468E8E89257C66BA00C6BCD2 /* Search */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		468E8E89257C66BA00C6BCD2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				468E8E7C257C64DF00C6BCD2 /* SearchPerforming.swift */,
+				468E8E86257C658C00C6BCD2 /* MockSearchPerformer.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		468E8E98257CF0B200C6BCD2 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				46BE1285254E262300F05EDF /* RootView.swift */,
+				46E70ED42583037200C11D2E /* TabSelection.swift */,
+				4608DECE2580951000B5C793 /* Favourites */,
+				468E8E9B257CF10F00C6BCD2 /* Details */,
+				468E8E99257CF0BA00C6BCD2 /* Search */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		468E8E99257CF0BA00C6BCD2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				468E8E92257CED2C00C6BCD2 /* SearchTabViewModelFactory.swift */,
+				46BE1296254E279600F05EDF /* BikeSummaryRowView.swift */,
+				4673FBF62569F1F00012AB1E /* SearchBarView.swift */,
+				46FD97BD258470D400F38CB2 /* SearchTabView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		468E8E9A257CF0F300C6BCD2 /* Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				4673FBF92569F2360012AB1E /* BikeListView.swift */,
+				468E8E95257CEE4E00C6BCD2 /* GroupedBikeListView.swift */,
+				46A96D182573716500E9FA6D /* FavouritesToggleView.swift */,
+			);
+			path = "Common Views";
+			sourceTree = "<group>";
+		};
+		468E8E9B257CF10F00C6BCD2 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				46FA5365254E2F230091A19F /* BikeDetailView.swift */,
+				4673FBEF2568D1940012AB1E /* BikeDetailHeaderView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		46A6FF862552784600408948 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46A6FF872552786E00408948 /* URLLocalImageExtensions.swift */,
+				4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46A96D162573628700E9FA6D /* Bike Mock JSON */ = {
+			isa = PBXGroup;
+			children = (
+				46A96D0C257355A600E9FA6D /* CBX1000.json */,
+				46A96D0F25735B2A00E9FA6D /* CX500.json */,
+				46A96D1225735BD600E9FA6D /* SpeedTriple.json */,
+				46FD977225835C8000F38CB2 /* CB500F.json */,
+				46FD977C25835DE000F38CB2 /* CRF1000L.json */,
+			);
+			path = "Bike Mock JSON";
+			sourceTree = "<group>";
+		};
+		46BE1277254E262300F05EDF = {
+			isa = PBXGroup;
+			children = (
+				46BE1282254E262300F05EDF /* BikeWiki */,
+				4608DEB1257F62F200B5C793 /* BikeWikiTests */,
+				46BE1281254E262300F05EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46BE1281254E262300F05EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BE1280254E262300F05EDF /* BikeWiki.app */,
+				4608DEB0257F62F200B5C793 /* BikeWikiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46BE1282254E262300F05EDF /* BikeWiki */ = {
+			isa = PBXGroup;
+			children = (
+				46BE1283254E262300F05EDF /* BikeWikiApp.swift */,
+				468E8E98257CF0B200C6BCD2 /* Sections */,
+				46FD978025835FFC00F38CB2 /* Localization */,
+				468E8E9A257CF0F300C6BCD2 /* Common Views */,
+				468E8E7B257C64CA00C6BCD2 /* Transactions */,
+				4673FBF22568D5810012AB1E /* Library */,
+				46A6FF862552784600408948 /* Extensions */,
+				46FA5368254E80360091A19F /* Model */,
+				46FA535D254E2C2C0091A19F /* Mock Resources */,
+				46BE128C254E262400F05EDF /* Info.plist */,
+			);
+			path = BikeWiki;
+			sourceTree = "<group>";
+		};
+		46FA535D254E2C2C0091A19F /* Mock Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46A96D162573628700E9FA6D /* Bike Mock JSON */,
+				4673FBFC256A59E50012AB1E /* Images */,
+				4673FBFD256A59F90012AB1E /* MockBikeCatalog.swift */,
+			);
+			path = "Mock Resources";
+			sourceTree = "<group>";
+		};
+		46FA5368254E80360091A19F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46A6FF7E2552739300408948 /* Bike.swift */,
+				4673FC01256A5F9B0012AB1E /* Manufacturer.swift */,
+				46FD97832583606100F38CB2 /* Attribute.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46FD978025835FFC00F38CB2 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				46E70EDE25831DA200C11D2E /* Localizable.stringsdict */,
+				46E70EE925831FB600C11D2E /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		46FD97CF258487D500F38CB2 /* Functional Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */,
+			);
+			path = "Functional Tests";
+			sourceTree = "<group>";
+		};
+		46FD97D12584880800F38CB2 /* Snapshot Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46FD97B725846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift */,
+			);
+			path = "Snapshot Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4608DEAF257F62F200B5C793 /* BikeWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4608DEB7257F62F200B5C793 /* Build configuration list for PBXNativeTarget "BikeWikiTests" */;
+			buildPhases = (
+				4608DEAC257F62F200B5C793 /* Sources */,
+				4608DEAD257F62F200B5C793 /* Frameworks */,
+				4608DEAE257F62F200B5C793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4608DEB6257F62F200B5C793 /* PBXTargetDependency */,
+			);
+			name = BikeWikiTests;
+			packageProductDependencies = (
+				46FD97AD25846C3300F38CB2 /* SnapshotTesting */,
+			);
+			productName = BikeWikiTests;
+			productReference = 4608DEB0257F62F200B5C793 /* BikeWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46BE127F254E262300F05EDF /* BikeWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BE128F254E262400F05EDF /* Build configuration list for PBXNativeTarget "BikeWiki" */;
+			buildPhases = (
+				46BE127C254E262300F05EDF /* Sources */,
+				46BE127D254E262300F05EDF /* Frameworks */,
+				46BE127E254E262300F05EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeWiki;
+			packageProductDependencies = (
+				46FA535A254E2A950091A19F /* SDWebImageSwiftUI */,
+			);
+			productName = BikeWiki;
+			productReference = 46BE1280254E262300F05EDF /* BikeWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46BE1278254E262300F05EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4608DEAF257F62F200B5C793 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 46BE127F254E262300F05EDF;
+					};
+					46BE127F254E262300F05EDF = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 46BE127B254E262300F05EDF /* Build configuration list for PBXProject "BikeWiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46BE1277254E262300F05EDF;
+			packageReferences = (
+				46FA5359254E2A950091A19F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				46FD97AC25846C3300F38CB2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
+			productRefGroup = 46BE1281254E262300F05EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BE127F254E262300F05EDF /* BikeWiki */,
+				4608DEAF257F62F200B5C793 /* BikeWikiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4608DEAE257F62F200B5C793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BE127E254E262300F05EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4673FC06256A68CE0012AB1E /* SpeedTriple.jpg in Resources */,
+				46A6FF842552780500408948 /* CX500.jpg in Resources */,
+				46FA5362254E2C530091A19F /* CBX1000.jpg in Resources */,
+				46E70EDC25831DA200C11D2E /* Localizable.stringsdict in Resources */,
+				46FD977D25835DE000F38CB2 /* CRF1000L.json in Resources */,
+				46E70EE725831FB600C11D2E /* Localizable.strings in Resources */,
+				46FD977925835DC400F38CB2 /* CRF1000L.jpg in Resources */,
+				46A96D1325735BD600E9FA6D /* SpeedTriple.json in Resources */,
+				46FD977325835C8000F38CB2 /* CB500F.json in Resources */,
+				46A96D0D257355A600E9FA6D /* CBX1000.json in Resources */,
+				46A96D1025735B2A00E9FA6D /* CX500.json in Resources */,
+				46FD976F25835C6100F38CB2 /* CB500F.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4608DEAC257F62F200B5C793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FD97B825846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift in Sources */,
+				4608DEB3257F62F200B5C793 /* SearchTabViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BE127C254E262300F05EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468E8E93257CED2C00C6BCD2 /* SearchTabViewModelFactory.swift in Sources */,
+				4673FC02256A5F9B0012AB1E /* Manufacturer.swift in Sources */,
+				46A96D192573716500E9FA6D /* FavouritesToggleView.swift in Sources */,
+				46E70ED52583037200C11D2E /* TabSelection.swift in Sources */,
+				46FD97C22584725600F38CB2 /* FavouritesTabView.swift in Sources */,
+				46A6FF7F2552739300408948 /* Bike.swift in Sources */,
+				46FA5366254E2F230091A19F /* BikeDetailView.swift in Sources */,
+				4673FBFE256A59F90012AB1E /* MockBikeCatalog.swift in Sources */,
+				468E8E87257C658C00C6BCD2 /* MockSearchPerformer.swift in Sources */,
+				46FA536F254E80970091A19F /* FavouritesStore.swift in Sources */,
+				4673FBF42568D5920012AB1E /* LoremSwiftum.swift in Sources */,
+				46FD97BE258470D400F38CB2 /* SearchTabView.swift in Sources */,
+				46BE1286254E262300F05EDF /* RootView.swift in Sources */,
+				46BE1284254E262300F05EDF /* BikeWikiApp.swift in Sources */,
+				4673FBFA2569F2360012AB1E /* BikeListView.swift in Sources */,
+				46BE1297254E279600F05EDF /* BikeSummaryRowView.swift in Sources */,
+				4608DEBD2580304100B5C793 /* UIApplicationExtensions.swift in Sources */,
+				468E8E7D257C64DF00C6BCD2 /* SearchPerforming.swift in Sources */,
+				468E8E96257CEE4E00C6BCD2 /* GroupedBikeListView.swift in Sources */,
+				46A6FF882552786E00408948 /* URLLocalImageExtensions.swift in Sources */,
+				46FD97842583606100F38CB2 /* Attribute.swift in Sources */,
+				4608DED02580951E00B5C793 /* FavouritesTabViewModelFactory.swift in Sources */,
+				4673FBF72569F1F00012AB1E /* SearchBarView.swift in Sources */,
+				4673FBF02568D1940012AB1E /* BikeDetailHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4608DEB6257F62F200B5C793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BE127F254E262300F05EDF /* BikeWiki */;
+			targetProxy = 4608DEB5257F62F200B5C793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46E70EDE25831DA200C11D2E /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E70EDD25831DA200C11D2E /* en */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		46E70EE925831FB600C11D2E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E70EE825831FB600C11D2E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4608DEB8257F62F200B5C793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeWikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
+			};
+			name = Debug;
+		};
+		4608DEB9257F62F200B5C793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BikeWikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
+			};
+			name = Release;
+		};
+		46BE128D254E262400F05EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46BE128E254E262400F05EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BE1290254E262400F05EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S4ANRF52U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeWiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46BE1291254E262400F05EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S4ANRF52U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeWiki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4608DEB7257F62F200B5C793 /* Build configuration list for PBXNativeTarget "BikeWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4608DEB8257F62F200B5C793 /* Debug */,
+				4608DEB9257F62F200B5C793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BE127B254E262300F05EDF /* Build configuration list for PBXProject "BikeWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BE128D254E262400F05EDF /* Debug */,
+				46BE128E254E262400F05EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BE128F254E262400F05EDF /* Build configuration list for PBXNativeTarget "BikeWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BE1290254E262400F05EDF /* Debug */,
+				46BE1291254E262400F05EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46FA5359254E2A950091A19F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		46FD97AC25846C3300F38CB2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46FA535A254E2A950091A19F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46FA5359254E2A950091A19F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		46FD97AD25846C3300F38CB2 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46FD97AC25846C3300F38CB2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 46BE1278254E262300F05EDF /* Project object */;
+}

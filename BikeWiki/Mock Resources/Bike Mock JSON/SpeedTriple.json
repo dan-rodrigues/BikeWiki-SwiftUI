@@ -1,0 +1,27 @@
+{
+    "id": "Speed-Triple",
+    "manufacturer": {
+        "id": "0",
+        "name": "Triumph"
+    },
+    "name": "Speed Triple",
+    "image": {
+        "source": "local",
+        "resource": "SpeedTriple"
+    },
+    "summary": "The Triumph Speed Triple is a series of motorcycles produced by Triumph Motorcycles. In 1994 the reborn Hinckley Triumph became one of the first production motorcycles to embrace the new streetfighter style, which was essentially a modern sport bike or race replica motorcycle but without the aerodynamic plastic fairing.",
+        "attributes": [
+            {
+                "name": "Year",
+                "value": "1994 - Present"
+            },
+            {
+                "name": "Displacement",
+                "value": "1050cc"
+            },
+            {
+                "name": "Engine",
+                "value": "DOHC I3"
+            }
+    ]
+}
