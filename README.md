@@ -4,8 +4,15 @@ This is a minimal SwiftUI / Combine demo app. The goal is to provide a basic UI 
 
 ## Prerequisites
 
+### Build environment
+
 * Xcode 12 or newer
 * iOS14 or newer simulator or device
+
+### Swift packages
+
+* [SDWebImage](https://github.com/SDWebImage/SDWebImage)
+* [swift-snapshot-testing](https://github.com/pointfreeco/swift-snapshot-testing)
 
 ## TODO
 
