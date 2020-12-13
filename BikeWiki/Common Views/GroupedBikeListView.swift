@@ -17,36 +17,39 @@ struct GroupedBikeListView: View {
     }
     
     var body: some View {
-        ScrollView {
-            LazyVStack(spacing: 8) {
-                ForEach(GroupedBikes(bikes: bikes).groups) { group in
-                    Section(header: SectionHeader(group.manufacturer.name)) {
-                        ForEach(group.bikes, id: \.id) { bike in
-                            NavigationLink(
-                                destination: BikeDetailView(
-                                    viewModel: .init(
-                                        bike: bike,
-                                        favouritesBinding: favourites.binding(forBikeId: bike.id))
-                                ),
-                                label: { BikeSummaryRowView(
-                                    viewModel: .init(
-                                        bike: bike,
-                                        favouritesBinding: favourites.binding(forBikeId: bike.id)
+        GeometryReader { geo in
+            ScrollView {
+                LazyVStack(spacing: 8) {
+                    ForEach(GroupedBikes(bikes: bikes).groups) { group in
+                        Section(header: SectionHeaderView(group.manufacturer.name)) {
+                            ForEach(group.bikes, id: \.id) { bike in
+                                NavigationLink(
+                                    destination: BikeDetailView(
+                                        viewModel: .init(
+                                            bike: bike,
+                                            favouritesBinding: favourites.binding(forBikeId: bike.id))
+                                    ),
+                                    label: { BikeSummaryRowView(
+                                        viewModel: .init(
+                                            bike: bike,
+                                            favouritesBinding: favourites.binding(forBikeId: bike.id)
+                                        )
                                     )
+                                    }
                                 )
-                                }
-                            )
-                            .accentColor(Color(.label))
-                            .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
+                                .frame(width: geo.size.width - 16, height: geo.size.width / 4)
+                                .accentColor(Color(.label))
+                            }
                         }
                     }
                 }
+                .padding(8)
             }
         }
     }
 }
 
-private struct SectionHeader: View {
+private struct SectionHeaderView: View {
 
     private let text: String
     

@@ -35,10 +35,11 @@ class SearchTabViewSnapshotTests: XCTestCase {
             favourites: favourites
         )
         
-        let expectation = XCTestExpectation(description: "images assumed to have loaded")
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            expectation.fulfill()
+        let loadExpectation = expectation(description: "images assumed to have loaded")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            loadExpectation.fulfill()
         }
+        waitForExpectations(timeout: 1.0)
         
         assertSnapshot(matching: view, as: .image)
     }

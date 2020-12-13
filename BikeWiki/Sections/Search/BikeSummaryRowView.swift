@@ -23,22 +23,24 @@ struct BikeSummaryRowView: View {
     }
     
     var body: some View {
-        ZStack {
-            Rectangle()
-                .fill(Color(.systemGray6))
-                .cornerRadius(8)
-            HStack {
-                FavouritesToggleView(binding: viewModel.favouritesBinding)
-                Text(viewModel.name)
-                Spacer()
-                WebImage(url: viewModel.thumbnailURL)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: (88 * 4) / 3, height: 88, alignment: .center)
+        GeometryReader { geo in
+            ZStack {
+                Rectangle()
+                    .fill(Color(.systemGray6))
                     .cornerRadius(8)
-                    .clipped()
+                HStack {
+                    FavouritesToggleView(binding: viewModel.favouritesBinding)
+                    Text(viewModel.name)
+                    Spacer()
+                    WebImage(url: viewModel.thumbnailURL)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: geo.size.width / 2, height: geo.size.height, alignment: .center)
+                        .cornerRadius(8)
+                        .clipped()
+                }
+                .padding(.init(top: 0, leading: 8, bottom: 0, trailing: 0))
             }
-            .padding(.init(top: 0, leading: 8, bottom: 0, trailing: 0))
         }
     }
 }
