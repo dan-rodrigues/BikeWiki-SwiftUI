@@ -31,8 +31,6 @@ struct RootView: View {
         self.favourites = favourites
     }
     
-    @State private var index = 0
-    
     var body: some View {
         TabView(selection: $favouritesViewModelFactory.selectedTab) {
             SearchTabView(

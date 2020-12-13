@@ -9,9 +9,9 @@ import Combine
 
 struct BikeListView: View {
 
-    enum ViewModel {
+    enum ViewModel: Equatable {
         
-        struct Loaded {
+        struct Loaded: Equatable {
             
             let header: LocalizedStringKey?
             let bikes: [Bike]
@@ -51,5 +51,13 @@ struct BikeListView: View {
                 GroupedBikeListView(bikes: result.bikes, favourites: favourites)
             }
         }
+    }
+}
+
+extension BikeListView.ViewModel.Loaded {
+    
+    init(bikes: [Bike]) {
+        self.header = nil
+        self.bikes = bikes
     }
 }

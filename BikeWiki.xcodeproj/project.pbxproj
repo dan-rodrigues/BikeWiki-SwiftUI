@@ -10,6 +10,7 @@
 		4608DEB3257F62F200B5C793 /* SearchTabViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */; };
 		4608DEBD2580304100B5C793 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */; };
 		4608DED02580951E00B5C793 /* FavouritesTabViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DECF2580951E00B5C793 /* FavouritesTabViewModelFactory.swift */; };
+		462EBCAB258593CE0077A234 /* PublisherTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EBCAA258593CE0077A234 /* PublisherTestExtensions.swift */; };
 		4673FBF02568D1940012AB1E /* BikeDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBEF2568D1940012AB1E /* BikeDetailHeaderView.swift */; };
 		4673FBF42568D5920012AB1E /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBF32568D5920012AB1E /* LoremSwiftum.swift */; };
 		4673FBF72569F1F00012AB1E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBF62569F1F00012AB1E /* SearchBarView.swift */; };
@@ -65,6 +66,7 @@
 		4608DEB4257F62F200B5C793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
 		4608DECF2580951E00B5C793 /* FavouritesTabViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTabViewModelFactory.swift; sourceTree = "<group>"; };
+		462EBCAA258593CE0077A234 /* PublisherTestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherTestExtensions.swift; sourceTree = "<group>"; };
 		4673FBEF2568D1940012AB1E /* BikeDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDetailHeaderView.swift; sourceTree = "<group>"; };
 		4673FBF32568D5920012AB1E /* LoremSwiftum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremSwiftum.swift; sourceTree = "<group>"; };
 		4673FBF62569F1F00012AB1E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		4608DEB1257F62F200B5C793 /* BikeWikiTests */ = {
 			isa = PBXGroup;
 			children = (
+				462EBCA9258593BE0077A234 /* Extensions */,
 				46FD97D12584880800F38CB2 /* Snapshot Tests */,
 				46FD97CF258487D500F38CB2 /* Functional Tests */,
 				4608DEB4257F62F200B5C793 /* Info.plist */,
@@ -142,6 +145,14 @@
 				46FD97C12584725600F38CB2 /* FavouritesTabView.swift */,
 			);
 			path = Favourites;
+			sourceTree = "<group>";
+		};
+		462EBCA9258593BE0077A234 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				462EBCAA258593CE0077A234 /* PublisherTestExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		4673FBF22568D5810012AB1E /* Library */ = {
@@ -444,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46FD97B825846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift in Sources */,
+				462EBCAB258593CE0077A234 /* PublisherTestExtensions.swift in Sources */,
 				4608DEB3257F62F200B5C793 /* SearchTabViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
