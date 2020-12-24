@@ -13,6 +13,10 @@ struct MockBikeCatalog {
         "CX500",
         "CB500F",
         "CRF1000L",
-        "SpeedTriple"
+
+        "SpeedTriple",
+        "Thruxton1200",
+
+        "Monster1200"
     ].compactMap { .mock(fromLocalJSON: $0) }
 }

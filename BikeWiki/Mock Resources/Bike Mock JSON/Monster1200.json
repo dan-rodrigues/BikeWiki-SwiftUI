@@ -1,0 +1,29 @@
+{
+    "id": "Monster1200",
+    "manufacturer": {
+        "id": "2",
+        "name": "Ducati"
+    },
+    "name": "Monster 1200",
+    "image": {
+        "source": "local",
+        "resource": "Monster1200"
+    },
+    "summary": "The Ducati Monster 1200 and 1200 S is equipped with a 1198cc Testastretta 11° L-twin engine. The 1200 S gets an Öhlins suspension, 330mm front discs with higher-spec Brembo calipers and light weight wheels.",
+    "attributes": [
+        {
+            "name": "Year",
+            "value": "2014 - Present"
+        },
+        {
+            "name": "Displacement",
+            "value": "1200cc"
+        },
+        {
+            "name": "Engine",
+            "value": "DOHC V-Twin"
+        }
+    ]
+}
+
+

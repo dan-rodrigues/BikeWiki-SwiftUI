@@ -1,0 +1,27 @@
+{
+    "id": "Thruxton1200",
+    "manufacturer": {
+        "id": "1",
+        "name": "Triumph"
+    },
+    "name": "Thruxton 1200",
+    "image": {
+        "source": "local",
+        "resource": "Thruxton1200"
+    },
+    "summary": "In 2016, the 900 was superseded by two 270° 1200cc water-cooled similarly-styled café racers, the Triumph Thruxton and Triumph Thruxton R. The standard 1200 Thruxton has conventional cartridge forks and fixed discs, while the \"R\" has upgraded Öhlins rear suspension with Showa USD \"big piston\" forks and Brembo front radial calipers with floating discs. Both 1200 Thruxtons have traction control, ABS, and ride by wire throttles featuring three modes, sport, road, and rain.",
+    "attributes": [
+        {
+            "name": "Year",
+            "value": "2016 - Present"
+        },
+        {
+            "name": "Displacement",
+            "value": "1200cc"
+        },
+        {
+            "name": "Engine",
+            "value": "SOHC I2"
+        }
+    ]
+}

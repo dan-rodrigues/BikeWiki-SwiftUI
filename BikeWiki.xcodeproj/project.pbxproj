@@ -32,6 +32,10 @@
 		46BE1284254E262300F05EDF /* BikeWikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE1283254E262300F05EDF /* BikeWikiApp.swift */; };
 		46BE1286254E262300F05EDF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE1285254E262300F05EDF /* RootView.swift */; };
 		46BE1297254E279600F05EDF /* BikeSummaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BE1296254E279600F05EDF /* BikeSummaryRowView.swift */; };
+		46CFF07B259417B5000E3154 /* Thruxton1200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46CFF07A259417B5000E3154 /* Thruxton1200.jpg */; };
+		46CFF07F259417D8000E3154 /* Thruxton1200.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CFF07E259417D8000E3154 /* Thruxton1200.json */; };
+		46CFF08725941983000E3154 /* Monster1200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46CFF08625941983000E3154 /* Monster1200.jpg */; };
+		46CFF08B2594199B000E3154 /* Monster1200.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CFF08A2594199B000E3154 /* Monster1200.json */; };
 		46E70ED52583037200C11D2E /* TabSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E70ED42583037200C11D2E /* TabSelection.swift */; };
 		46E70EDC25831DA200C11D2E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 46E70EDE25831DA200C11D2E /* Localizable.stringsdict */; };
 		46E70EE725831FB600C11D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46E70EE925831FB600C11D2E /* Localizable.strings */; };
@@ -90,6 +94,10 @@
 		46BE1285254E262300F05EDF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		46BE128C254E262400F05EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BE1296254E279600F05EDF /* BikeSummaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeSummaryRowView.swift; sourceTree = "<group>"; };
+		46CFF07A259417B5000E3154 /* Thruxton1200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thruxton1200.jpg; sourceTree = "<group>"; };
+		46CFF07E259417D8000E3154 /* Thruxton1200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Thruxton1200.json; sourceTree = "<group>"; };
+		46CFF08625941983000E3154 /* Monster1200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Monster1200.jpg; sourceTree = "<group>"; };
+		46CFF08A2594199B000E3154 /* Monster1200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Monster1200.json; sourceTree = "<group>"; };
 		46E70ED42583037200C11D2E /* TabSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelection.swift; sourceTree = "<group>"; };
 		46E70EDD25831DA200C11D2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		46E70EE825831FB600C11D2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -166,6 +174,8 @@
 		4673FBFC256A59E50012AB1E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				46CFF08625941983000E3154 /* Monster1200.jpg */,
+				46CFF07A259417B5000E3154 /* Thruxton1200.jpg */,
 				46FD977825835DC400F38CB2 /* CRF1000L.jpg */,
 				4673FC05256A68CE0012AB1E /* SpeedTriple.jpg */,
 				46FA5361254E2C530091A19F /* CBX1000.jpg */,
@@ -251,6 +261,8 @@
 				46A96D1225735BD600E9FA6D /* SpeedTriple.json */,
 				46FD977225835C8000F38CB2 /* CB500F.json */,
 				46FD977C25835DE000F38CB2 /* CRF1000L.json */,
+				46CFF07E259417D8000E3154 /* Thruxton1200.json */,
+				46CFF08A2594199B000E3154 /* Monster1200.json */,
 			);
 			path = "Bike Mock JSON";
 			sourceTree = "<group>";
@@ -438,7 +450,11 @@
 				46E70EDC25831DA200C11D2E /* Localizable.stringsdict in Resources */,
 				46FD977D25835DE000F38CB2 /* CRF1000L.json in Resources */,
 				46E70EE725831FB600C11D2E /* Localizable.strings in Resources */,
+				46CFF08B2594199B000E3154 /* Monster1200.json in Resources */,
 				46FD977925835DC400F38CB2 /* CRF1000L.jpg in Resources */,
+				46CFF07F259417D8000E3154 /* Thruxton1200.json in Resources */,
+				46CFF07B259417B5000E3154 /* Thruxton1200.jpg in Resources */,
+				46CFF08725941983000E3154 /* Monster1200.jpg in Resources */,
 				46A96D1325735BD600E9FA6D /* SpeedTriple.json in Resources */,
 				46FD977325835C8000F38CB2 /* CB500F.json in Resources */,
 				46A96D0D257355A600E9FA6D /* CBX1000.json in Resources */,
