@@ -1,3 +1,6 @@
+[![unit-tests action status](https://github.com/dan-rodrigues/BikeWiki-SwiftUI/workflows/unit-tests/badge.svg)](https://github.com/dan-rodrigues/BikeWiki-SwiftUI/actions)
+[![snapshot-tests action status](https://github.com/dan-rodrigues/BikeWiki-SwiftUI/workflows/snapshot-tests/badge.svg)](https://github.com/dan-rodrigues/BikeWiki-SwiftUI/actions)
+
 # BikeWiki-SwiftUI
 
 This is a minimal SwiftUI / Combine demo app. The goal is to provide a basic UI with less emphasis on visuals and more on using Combine to drive a SwiftUI app with little to no imperative code.

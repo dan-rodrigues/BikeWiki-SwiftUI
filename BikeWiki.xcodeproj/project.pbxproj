@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4608DEB3257F62F200B5C793 /* SearchTabViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */; };
 		4608DEBD2580304100B5C793 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */; };
 		4608DED02580951E00B5C793 /* FavouritesTabViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DECF2580951E00B5C793 /* FavouritesTabViewModelFactory.swift */; };
-		462EBCAB258593CE0077A234 /* PublisherTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EBCAA258593CE0077A234 /* PublisherTestExtensions.swift */; };
 		4673FBF02568D1940012AB1E /* BikeDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBEF2568D1940012AB1E /* BikeDetailHeaderView.swift */; };
 		4673FBF42568D5920012AB1E /* LoremSwiftum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBF32568D5920012AB1E /* LoremSwiftum.swift */; };
 		4673FBF72569F1F00012AB1E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FBF62569F1F00012AB1E /* SearchBarView.swift */; };
@@ -36,6 +34,14 @@
 		46CFF07F259417D8000E3154 /* Thruxton1200.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CFF07E259417D8000E3154 /* Thruxton1200.json */; };
 		46CFF08725941983000E3154 /* Monster1200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46CFF08625941983000E3154 /* Monster1200.jpg */; };
 		46CFF08B2594199B000E3154 /* Monster1200.json in Resources */ = {isa = PBXBuildFile; fileRef = 46CFF08A2594199B000E3154 /* Monster1200.json */; };
+		46CFF091259460ED000E3154 /* EnvironmentPlaceholderImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CFF090259460ED000E3154 /* EnvironmentPlaceholderImageExtensions.swift */; };
+		46CFF0A1259467B3000E3154 /* PublisherTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EBCAA258593CE0077A234 /* PublisherTestExtensions.swift */; };
+		46CFF0A2259467B3000E3154 /* SearchTabViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */; };
+		46CFF0A4259467B3000E3154 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 46CFF09D259467B3000E3154 /* SnapshotTesting */; };
+		46CFF0BA259469A1000E3154 /* PublisherTestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EBCAA258593CE0077A234 /* PublisherTestExtensions.swift */; };
+		46CFF0BB259469A1000E3154 /* SearchTabViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */; };
+		46CFF0BD259469A1000E3154 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 46CFF0B7259469A1000E3154 /* SnapshotTesting */; };
+		46CFF0C8259469AE000E3154 /* SearchTabViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97B725846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift */; };
 		46E70ED52583037200C11D2E /* TabSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E70ED42583037200C11D2E /* TabSelection.swift */; };
 		46E70EDC25831DA200C11D2E /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 46E70EDE25831DA200C11D2E /* Localizable.stringsdict */; };
 		46E70EE725831FB600C11D2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46E70EE925831FB600C11D2E /* Localizable.strings */; };
@@ -48,14 +54,19 @@
 		46FD977925835DC400F38CB2 /* CRF1000L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46FD977825835DC400F38CB2 /* CRF1000L.jpg */; };
 		46FD977D25835DE000F38CB2 /* CRF1000L.json in Resources */ = {isa = PBXBuildFile; fileRef = 46FD977C25835DE000F38CB2 /* CRF1000L.json */; };
 		46FD97842583606100F38CB2 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97832583606100F38CB2 /* Attribute.swift */; };
-		46FD97AE25846C3300F38CB2 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 46FD97AD25846C3300F38CB2 /* SnapshotTesting */; };
-		46FD97B825846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97B725846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift */; };
 		46FD97BE258470D400F38CB2 /* SearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97BD258470D400F38CB2 /* SearchTabView.swift */; };
 		46FD97C22584725600F38CB2 /* FavouritesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD97C12584725600F38CB2 /* FavouritesTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4608DEB5257F62F200B5C793 /* PBXContainerItemProxy */ = {
+		46CFF09C259467B3000E3154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BE1278254E262300F05EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BE127F254E262300F05EDF;
+			remoteInfo = BikeWiki;
+		};
+		46CFF0B6259469A1000E3154 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46BE1278254E262300F05EDF /* Project object */;
 			proxyType = 1;
@@ -65,7 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4608DEB0257F62F200B5C793 /* BikeWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabViewModelTests.swift; sourceTree = "<group>"; };
 		4608DEB4257F62F200B5C793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
@@ -98,6 +108,11 @@
 		46CFF07E259417D8000E3154 /* Thruxton1200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Thruxton1200.json; sourceTree = "<group>"; };
 		46CFF08625941983000E3154 /* Monster1200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Monster1200.jpg; sourceTree = "<group>"; };
 		46CFF08A2594199B000E3154 /* Monster1200.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Monster1200.json; sourceTree = "<group>"; };
+		46CFF090259460ED000E3154 /* EnvironmentPlaceholderImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentPlaceholderImageExtensions.swift; sourceTree = "<group>"; };
+		46CFF0A9259467B3000E3154 /* BikeWiki-UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BikeWiki-UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CFF0AA259467B3000E3154 /* BikeWikiTests-UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BikeWikiTests-UnitTests-Info.plist"; path = "/Users/dan.rodrigues/iOS/BikeWiki-SwiftUI/BikeWikiTests-UnitTests-Info.plist"; sourceTree = "<absolute>"; };
+		46CFF0C2259469A1000E3154 /* BikeWiki-SnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BikeWiki-SnapshotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CFF0C3259469A1000E3154 /* BikeWiki-SnapshotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BikeWiki-SnapshotTests-Info.plist"; path = "/Users/dan.rodrigues/iOS/BikeWiki-SwiftUI/BikeWiki-SnapshotTests-Info.plist"; sourceTree = "<absolute>"; };
 		46E70ED42583037200C11D2E /* TabSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelection.swift; sourceTree = "<group>"; };
 		46E70EDD25831DA200C11D2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		46E70EE825831FB600C11D2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -115,19 +130,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4608DEAD257F62F200B5C793 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46FD97AE25846C3300F38CB2 /* SnapshotTesting in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46BE127D254E262300F05EDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				46FA535B254E2A950091A19F /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CFF0A3259467B3000E3154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CFF0A4259467B3000E3154 /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CFF0BC259469A1000E3154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CFF0BD259469A1000E3154 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +162,7 @@
 			children = (
 				462EBCA9258593BE0077A234 /* Extensions */,
 				46FD97D12584880800F38CB2 /* Snapshot Tests */,
-				46FD97CF258487D500F38CB2 /* Functional Tests */,
+				46FD97CF258487D500F38CB2 /* Unit Tests */,
 				4608DEB4257F62F200B5C793 /* Info.plist */,
 			);
 			path = BikeWikiTests;
@@ -249,6 +272,7 @@
 			children = (
 				46A6FF872552786E00408948 /* URLLocalImageExtensions.swift */,
 				4608DEBC2580304100B5C793 /* UIApplicationExtensions.swift */,
+				46CFF090259460ED000E3154 /* EnvironmentPlaceholderImageExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -273,6 +297,8 @@
 				46BE1282254E262300F05EDF /* BikeWiki */,
 				4608DEB1257F62F200B5C793 /* BikeWikiTests */,
 				46BE1281254E262300F05EDF /* Products */,
+				46CFF0AA259467B3000E3154 /* BikeWikiTests-UnitTests-Info.plist */,
+				46CFF0C3259469A1000E3154 /* BikeWiki-SnapshotTests-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -280,7 +306,8 @@
 			isa = PBXGroup;
 			children = (
 				46BE1280254E262300F05EDF /* BikeWiki.app */,
-				4608DEB0257F62F200B5C793 /* BikeWikiTests.xctest */,
+				46CFF0A9259467B3000E3154 /* BikeWiki-UnitTests.xctest */,
+				46CFF0C2259469A1000E3154 /* BikeWiki-SnapshotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -331,12 +358,12 @@
 			name = Localization;
 			sourceTree = "<group>";
 		};
-		46FD97CF258487D500F38CB2 /* Functional Tests */ = {
+		46FD97CF258487D500F38CB2 /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
 				4608DEB2257F62F200B5C793 /* SearchTabViewModelTests.swift */,
 			);
-			path = "Functional Tests";
+			path = "Unit Tests";
 			sourceTree = "<group>";
 		};
 		46FD97D12584880800F38CB2 /* Snapshot Tests */ = {
@@ -350,27 +377,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4608DEAF257F62F200B5C793 /* BikeWikiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4608DEB7257F62F200B5C793 /* Build configuration list for PBXNativeTarget "BikeWikiTests" */;
-			buildPhases = (
-				4608DEAC257F62F200B5C793 /* Sources */,
-				4608DEAD257F62F200B5C793 /* Frameworks */,
-				4608DEAE257F62F200B5C793 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4608DEB6257F62F200B5C793 /* PBXTargetDependency */,
-			);
-			name = BikeWikiTests;
-			packageProductDependencies = (
-				46FD97AD25846C3300F38CB2 /* SnapshotTesting */,
-			);
-			productName = BikeWikiTests;
-			productReference = 4608DEB0257F62F200B5C793 /* BikeWikiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		46BE127F254E262300F05EDF /* BikeWiki */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46BE128F254E262400F05EDF /* Build configuration list for PBXNativeTarget "BikeWiki" */;
@@ -391,6 +397,48 @@
 			productReference = 46BE1280254E262300F05EDF /* BikeWiki.app */;
 			productType = "com.apple.product-type.application";
 		};
+		46CFF09A259467B3000E3154 /* BikeWiki-UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CFF0A6259467B3000E3154 /* Build configuration list for PBXNativeTarget "BikeWiki-UnitTests" */;
+			buildPhases = (
+				46CFF09F259467B3000E3154 /* Sources */,
+				46CFF0A3259467B3000E3154 /* Frameworks */,
+				46CFF0A5259467B3000E3154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46CFF09B259467B3000E3154 /* PBXTargetDependency */,
+			);
+			name = "BikeWiki-UnitTests";
+			packageProductDependencies = (
+				46CFF09D259467B3000E3154 /* SnapshotTesting */,
+			);
+			productName = BikeWikiTests;
+			productReference = 46CFF0A9259467B3000E3154 /* BikeWiki-UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46CFF0B4259469A1000E3154 /* BikeWiki-SnapshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CFF0BF259469A1000E3154 /* Build configuration list for PBXNativeTarget "BikeWiki-SnapshotTests" */;
+			buildPhases = (
+				46CFF0B9259469A1000E3154 /* Sources */,
+				46CFF0BC259469A1000E3154 /* Frameworks */,
+				46CFF0BE259469A1000E3154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46CFF0B5259469A1000E3154 /* PBXTargetDependency */,
+			);
+			name = "BikeWiki-SnapshotTests";
+			packageProductDependencies = (
+				46CFF0B7259469A1000E3154 /* SnapshotTesting */,
+			);
+			productName = BikeWikiTests;
+			productReference = 46CFF0C2259469A1000E3154 /* BikeWiki-SnapshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -400,10 +448,6 @@
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					4608DEAF257F62F200B5C793 = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = 46BE127F254E262300F05EDF;
-					};
 					46BE127F254E262300F05EDF = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -427,19 +471,13 @@
 			projectRoot = "";
 			targets = (
 				46BE127F254E262300F05EDF /* BikeWiki */,
-				4608DEAF257F62F200B5C793 /* BikeWikiTests */,
+				46CFF09A259467B3000E3154 /* BikeWiki-UnitTests */,
+				46CFF0B4259469A1000E3154 /* BikeWiki-SnapshotTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4608DEAE257F62F200B5C793 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46BE127E254E262300F05EDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,19 +501,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		4608DEAC257F62F200B5C793 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		46CFF0A5259467B3000E3154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46FD97B825846D1E00F38CB2 /* SearchTabViewSnapshotTests.swift in Sources */,
-				462EBCAB258593CE0077A234 /* PublisherTestExtensions.swift in Sources */,
-				4608DEB3257F62F200B5C793 /* SearchTabViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46CFF0BE259469A1000E3154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		46BE127C254E262300F05EDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,19 +543,44 @@
 				468E8E96257CEE4E00C6BCD2 /* GroupedBikeListView.swift in Sources */,
 				46A6FF882552786E00408948 /* URLLocalImageExtensions.swift in Sources */,
 				46FD97842583606100F38CB2 /* Attribute.swift in Sources */,
+				46CFF091259460ED000E3154 /* EnvironmentPlaceholderImageExtensions.swift in Sources */,
 				4608DED02580951E00B5C793 /* FavouritesTabViewModelFactory.swift in Sources */,
 				4673FBF72569F1F00012AB1E /* SearchBarView.swift in Sources */,
 				4673FBF02568D1940012AB1E /* BikeDetailHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46CFF09F259467B3000E3154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CFF0A1259467B3000E3154 /* PublisherTestExtensions.swift in Sources */,
+				46CFF0A2259467B3000E3154 /* SearchTabViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CFF0B9259469A1000E3154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CFF0BA259469A1000E3154 /* PublisherTestExtensions.swift in Sources */,
+				46CFF0BB259469A1000E3154 /* SearchTabViewModelTests.swift in Sources */,
+				46CFF0C8259469AE000E3154 /* SearchTabViewSnapshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4608DEB6257F62F200B5C793 /* PBXTargetDependency */ = {
+		46CFF09B259467B3000E3154 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 46BE127F254E262300F05EDF /* BikeWiki */;
-			targetProxy = 4608DEB5257F62F200B5C793 /* PBXContainerItemProxy */;
+			targetProxy = 46CFF09C259467B3000E3154 /* PBXContainerItemProxy */;
+		};
+		46CFF0B5259469A1000E3154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BE127F254E262300F05EDF /* BikeWiki */;
+			targetProxy = 46CFF0B6259469A1000E3154 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -537,44 +604,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4608DEB8257F62F200B5C793 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BikeWikiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
-			};
-			name = Debug;
-		};
-		4608DEB9257F62F200B5C793 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BikeWikiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
-			};
-			name = Release;
-		};
 		46BE128D254E262400F05EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -729,18 +758,85 @@
 			};
 			name = Release;
 		};
+		46CFF0A7259467B3000E3154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BikeWikiTests-UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
+			};
+			name = Debug;
+		};
+		46CFF0A8259467B3000E3154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BikeWikiTests-UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
+			};
+			name = Release;
+		};
+		46CFF0C0259469A1000E3154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BikeWiki-SnapshotTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
+			};
+			name = Debug;
+		};
+		46CFF0C1259469A1000E3154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BikeWiki-SnapshotTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.danrr.BikeWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeWiki.app/BikeWiki";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4608DEB7257F62F200B5C793 /* Build configuration list for PBXNativeTarget "BikeWikiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4608DEB8257F62F200B5C793 /* Debug */,
-				4608DEB9257F62F200B5C793 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		46BE127B254E262300F05EDF /* Build configuration list for PBXProject "BikeWiki" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -759,9 +855,43 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		46CFF0A6259467B3000E3154 /* Build configuration list for PBXNativeTarget "BikeWiki-UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CFF0A7259467B3000E3154 /* Debug */,
+				46CFF0A8259467B3000E3154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CFF0BF259469A1000E3154 /* Build configuration list for PBXNativeTarget "BikeWiki-SnapshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CFF0C0259469A1000E3154 /* Debug */,
+				46CFF0C1259469A1000E3154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		46CFF09E259467B3000E3154 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+		46CFF0B8259469A1000E3154 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
 		46FA5359254E2A950091A19F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
@@ -781,15 +911,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		46CFF09D259467B3000E3154 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46CFF09E259467B3000E3154 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		46CFF0B7259469A1000E3154 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46CFF0B8259469A1000E3154 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
 		46FA535A254E2A950091A19F /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 46FA5359254E2A950091A19F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
-		};
-		46FD97AD25846C3300F38CB2 /* SnapshotTesting */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 46FD97AC25846C3300F38CB2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
-			productName = SnapshotTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

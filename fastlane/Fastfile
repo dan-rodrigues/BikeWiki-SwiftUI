@@ -1,0 +1,12 @@
+lane :unit_tests do
+  run_tests(project: "BikeWiki.xcodeproj",
+            scheme: "BikeWiki-UnitTests",
+            devices: ["iPhone 12 Pro"])
+end
+
+lane :snapshot_tests do
+  run_tests(project: "BikeWiki.xcodeproj",
+            scheme: "BikeWiki-SnapshotTests",
+            devices: ["iPhone 12 Pro"])
+end
+

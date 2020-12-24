@@ -12,6 +12,7 @@ class SearchTabViewSnapshotTests: XCTestCase {
             viewModel: .info("(Placeholder info text)"),
             favourites: favourites
         )
+        .colorScheme(.dark)
         
         assertSnapshot(matching: view, as: .image)
     }
@@ -23,10 +24,11 @@ class SearchTabViewSnapshotTests: XCTestCase {
             viewModel: .loading(description: "(Placeholder loading text)"),
             favourites: favourites
         )
+        .colorScheme(.dark)
         
         assertSnapshot(matching: view, as: .image)
     }
-    
+
     func testLoaded() {
         let favourites = FavouritesStore()
         let view = SearchTabView(
@@ -34,12 +36,8 @@ class SearchTabViewSnapshotTests: XCTestCase {
             viewModel: .loaded(.init(header: "(Header)", bikes: MockBikeCatalog.bikes)),
             favourites: favourites
         )
-        
-        let loadExpectation = expectation(description: "images assumed to have loaded")
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            loadExpectation.fulfill()
-        }
-        waitForExpectations(timeout: 1.0)
+        .colorScheme(.dark)
+        .environment(\.showPlaceholderImages, true)
         
         assertSnapshot(matching: view, as: .image)
     }

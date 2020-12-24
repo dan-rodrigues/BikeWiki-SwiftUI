@@ -11,8 +11,12 @@ struct SearchTabView: View {
     private let viewModel: BikeListView.ViewModel
     @Binding private var searchInput: String
     @ObservedObject private var favourites: FavouritesStore
-    
-    init(searchInput: Binding<String>, viewModel: BikeListView.ViewModel, favourites: FavouritesStore) {
+
+    init(
+        searchInput: Binding<String>,
+        viewModel: BikeListView.ViewModel,
+        favourites: FavouritesStore)
+    {
         self.viewModel = viewModel
         self._searchInput = searchInput
         self.favourites = favourites

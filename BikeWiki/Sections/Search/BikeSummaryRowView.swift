@@ -10,13 +10,15 @@ import SDWebImageSwiftUI
 struct BikeSummaryRowView: View {
     
     struct ViewModel {
-        
+
         let thumbnailURL: URL
         let name: String
         let favouritesBinding: Binding<Bool>
     }
     
     private let viewModel: ViewModel
+
+    @Environment(\.showPlaceholderImages) private var showPlaceholderImages: Bool
     
     init(viewModel: ViewModel) {
         self.viewModel = viewModel
@@ -32,14 +34,26 @@ struct BikeSummaryRowView: View {
                     FavouritesToggleView(binding: viewModel.favouritesBinding)
                     Text(viewModel.name)
                     Spacer()
-                    WebImage(url: viewModel.thumbnailURL)
-                        .resizable()
-                        .scaledToFill()
+
+                    imageView(geo: geo)
                         .frame(width: geo.size.width / 2, height: geo.size.height, alignment: .center)
                         .cornerRadius(8)
                         .clipped()
                 }
-                .padding(.init(top: 0, leading: 8, bottom: 0, trailing: 0))
+                .padding(.leading, 8)
+            }
+        }
+    }
+
+    private func imageView(geo: GeometryProxy) -> some View {
+        return Group {
+            if showPlaceholderImages {
+                Rectangle()
+                    .fill(Color.gray)
+            } else {
+                WebImage(url: viewModel.thumbnailURL)
+                    .resizable()
+                    .scaledToFill()
             }
         }
     }
